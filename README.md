@@ -21,4 +21,11 @@ Removed spacing between columns
 
 Widened Columns a bit (some websites didn't fit right)
 
+## Screenshots
+![Empty Main Page](http://i.imgur.com/4lBmb3J.jpg)
 
+![Search](http://i.imgur.com/OTrcoa9.jpg)
+
+![Subreddit](http://i.imgur.com/AL0DP0f.jpg)
+
+![Websites](http://i.imgur.com/MI1XQx8.jpg)
