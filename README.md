@@ -3,7 +3,8 @@ Forked version of kotajacob's homepage
 
 ![original](https://github.com/kotajacob/homepage)
 ## Changes
-### Main Page
+Made text a bit bigger in some places
+
 Clock numbers are closer together
 
 Clock has : seperator
@@ -12,7 +13,6 @@ Removed search bar background
 
 Changed Search delimiter to / (was :)
 
-### Hotkey Menu
 Changed links
 
 Removed background colors
