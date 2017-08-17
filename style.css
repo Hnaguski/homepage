@@ -30,7 +30,7 @@ time {
 	display: block;
 	margin-bottom: 20px;
 	font-size: 5rem;
-	letter-spacing: 6px;
+	letter-spacing: 2px;
 }
 
 input,
@@ -48,8 +48,8 @@ input {
 	padding: 12px;
 	transition: 0.5s;
 	border-radius: 2px;
-	background: var(--color15) !important;
-	color: var(--color0) !important;
+	background: var(--color0) !important;
+	color: var(--color15) !important;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1rem;
 }
@@ -91,15 +91,15 @@ li {
 }
 
 .category {
-	width: 160px;
-	margin: 10px;
+	width: 180px;
+	margin: 0px;
 }
 
 .category-name {
 	margin: 0;
 	padding: 14px;
-	border-radius: 2px 2px 0 0;
-	background: var(--color1) !important;
+	border-radius: 0px 0px 0 0;
+	background: var(--color0) !important;
 	color: var(--color15) !important;
 	font-size: .7rem;
 	text-transform: uppercase;
@@ -108,29 +108,29 @@ li {
 
 .command {
 	transition: background 200ms;
-	background: var(--color15) !important;
+	background: var(--color0) !important;
 }
 
 .command:hover {
-	background: var(--color15) !important;
+	background: var(--color0) !important;
 }
 
 .command:nth-child(even) {
-	background: var(--color15) !important;
+	background: var(--color0) !important;
 }
 
 .command:nth-child(even):hover {
-	background: var(--color15) !important;
+	background: var(--color0) !important;
 }
 
 .command:last-of-type {
-	border-radius: 0 0 2px 2px;
+	border-radius: 0 0 0px 0px;
 }
 
 .command a {
 	display: block;
 	padding: 14px 12px;
-	color: var(--color0) !important;
+	color: var(--color15) !important;
 	font-size: .8rem;
 	line-height: 1.3rem;
 	text-decoration: none;
@@ -142,7 +142,7 @@ li {
 	margin-right: 10px;
 	float: left;
 	border-radius: 2px;
-	background: var(--color7) !important;
+	background: var(--color0) !important;
 	font-family: 'Hack', monospace;
 	text-align: center;
 }
