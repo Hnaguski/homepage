@@ -51,7 +51,7 @@ input {
 	background: var(--color0) !important;
 	color: var(--color15) !important;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 }
 
 ul,
@@ -101,7 +101,7 @@ li {
 	border-radius: 0px 0px 0 0;
 	background: var(--color0) !important;
 	color: var(--color15) !important;
-	font-size: .7rem;
+	font-size: .75rem;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -144,7 +144,8 @@ li {
 	border-radius: 2px;
 	background: var(--color0) !important;
 	font-family: 'Hack', monospace;
-	text-align: center;
+	font-size: .84rem;
+	text-align: center
 }
 
 @media (min-width: 740px) {
