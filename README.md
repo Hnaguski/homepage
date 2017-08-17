@@ -1,8 +1,8 @@
-#About
+# About
 Forked version of kotajacob's homepage
-
-##Changes
-###Main Page
+![original](https://github.com/kotajacob/homepage)
+## Changes
+### Main Page
 Clock numbers are closer together
 
 Clock has : seperator
@@ -11,7 +11,7 @@ Removed search bar background
 
 Changed Search delimiter to / (was :)
 
-###Hotkey Menu
+### Hotkey Menu
 Changed links
 
 Removed background colors
