@@ -40,11 +40,12 @@ input:focus {
 	outline: 0;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	text-align: center;
 }
 
 input {
 	box-sizing: border-box;
-	width: 100%;
+	width: 200%;
 	padding: 12px;
 	transition: 0.5s;
 	border-radius: 2px;

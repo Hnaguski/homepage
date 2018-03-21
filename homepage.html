@@ -37,25 +37,31 @@
 <script>
   'use strict';
 
-  var config = {
-    categories: [
-      { name: "Tools", commands: [
-        { key: 'g', name: 'GitHub', url: 'https://github.com', search: '/search?q=' },
-        { key: 'cl', name: 'Cloud', url: 'http://174.55.203.212/nextcloud/', search: '/' },
-        { key: 'gl', name: 'GitLab', url: 'https://gitlab.com', search: '/search?utf8=✓&search=' },
-        { key: 'st', name: 'StackExchange', url: 'https://stackexchange.com', search: '/search?q=' },
-        { key: 'al', name: 'Alternative To', url: 'http://alternativeto.net', search: '/browse/search?q=' },
-      ] },
-      { name: "Entertainment", commands: [
-        { key: 'r', name: 'Reddit', url: 'https://www.reddit.com', search: '/r/' },
-	{ key: 'yt', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' },
-	{ key: 'tw', name: 'Twitch', url: 'https://www.twitch.tv/directory/following' },
-      ] },
+	var config = {
+    	categories: [
+			{ name: "Tools", commands: [
+
+				{ key: 'g', name: 'GitHub', url: 'https://github.com', search: '/search?q=' },
+				{ key: 'cl', name: 'Cloud', url: 'http://174.55.203.212/nextcloud/', search: '/' },
+				{ key: 'gl', name: 'GitLab', url: 'https://gitlab.com', search: '/search?utf8=✓&search=' },
+				{ key: 'st', name: 'StackExchange', url: 'https://stackexchange.com', search: '/search?q=' },
+				{ key: 'al', name: 'Alternative To', url: 'http://alternativeto.net', search: '/browse/search?q=' },
+
+			] },
+
+			{ name: "Entertainment", commands: [
+        
+				{ key: 'r', name: 'Reddit', url: 'https://www.reddit.com', search: '/r/' },
+				{ key: 'yt', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' },
+				{ key: 'tw', name: 'Twitch', url: 'https://www.twitch.tv/directory/following' },
+	
+			] },
+
 	  { name: "TF2", commands: [
-	{ key: 'tfc', name: 'TF2Center', url: 'https://tf2center.com/lobbies' },
-	{ key: 'tfo', name: 'TF2 Outpost', url: 'https://tf2outpost.com' },
-	{ key: 'bp', name: 'Backpack.tf', url: 'https://backpack.tf' },
-	{ key: 'sc', name: 'Scrap.tf', url: 'https://scrap.tf' },
+		{ key: 'tfc', name: 'TF2Center', url: 'https://tf2center.com/lobbies' },
+		{ key: 'tfo', name: 'TF2 Outpost', url: 'https://tf2outpost.com' },
+		{ key: 'bp', name: 'Backpack.tf', url: 'https://backpack.tf' },
+		{ key: 'sc', name: 'Scrap.tf', url: 'https://scrap.tf' },
       ] },
       { name: "Social", commands: [
         { key: 'w', name: 'Wire', url: 'https://app.wire.com', search: '/' },
