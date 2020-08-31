@@ -1,3 +1,6 @@
+# ARCHIVED
+## SEE https://git.sr.ht/~hnaguski/homepage
+
 # About
 Forked version of kotajacob's homepage
 
